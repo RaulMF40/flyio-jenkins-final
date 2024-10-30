@@ -3,11 +3,10 @@ name: Fly.io CI/CD
 on:
   push:
     branches:
-      - deploy-jenkins
+      - main
   pull_request:
     branches:
-      - deploy-jenkins
-
+      - main
 jobs:
   build:
     runs-on: ubuntu-latest
